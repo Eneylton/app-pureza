@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams, ToastController, ModalController, IonicPage, LoadingController  } from 'ionic-angular';
 import { WoocommerceProvider } from '../../providers/woocommerce/woocommerce';
-import { CartPage } from '../cart/cart';
+
 
 import { Storage } from '@ionic/storage';
 
@@ -156,7 +156,7 @@ export class ProductDetails {
 
   openCart(){
 
-    this.modalCtrl.create(CartPage).present();
+    this.modalCtrl.create('CartPage').present();
 
   }
 

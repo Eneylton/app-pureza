@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams, ViewController, ToastController } from 'ionic-angular';
+import { NavController, NavParams, ViewController, ToastController, IonicPage } from 'ionic-angular';
 import { Storage } from '@ionic/storage';
 
-
+@IonicPage({})
 @Component({
   selector: 'page-cart',
   templateUrl: 'cart.html',
