@@ -34,11 +34,17 @@ $app-direction: ltr;
 // The "primary" color is the only required color in the map.
 
 $colors: (
-  primary:    #488aff,
-  secondary:  #32db64,
-  danger:     #f53d3d,
-  light:      #f4f4f4,
-  dark:       #222
+  primary:     #00af26,
+  secondary:   #ff4800,
+  danger:      rgb(255, 255, 255),
+  light:       #e2e2e2,
+  dark:        rgb(61, 61, 61),
+  lightdark:   #c9c9c9,
+  vermelho:    #c00b0b,
+  twitter:     #2c8bd8,
+  face:        #324ce4,
+  gmail:       #9e0000      
+
 );
 
 
@@ -60,6 +66,7 @@ $colors: (
 // --------------------------------------------------
 // Windows only Sass variables can go here
 
+$searchbar-md-input-background-color:color($colors, lightdark);
 
 
 
